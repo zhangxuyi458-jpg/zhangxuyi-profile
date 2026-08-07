@@ -1,0 +1,12 @@
+.openai
+.wrangler
+.package-stage
+dist
+worker
+build
+db
+drizzle
+examples
+vite.config.ts
+drizzle.config.ts
+site-build.tar.gz
