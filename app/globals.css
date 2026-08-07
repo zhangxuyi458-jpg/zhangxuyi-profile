@@ -36,8 +36,12 @@ body{font-size:16px}.shell,.education>.shell,.achievements>.shell,.skills>.shell
 @media(max-width:800px){.orbitLabel,.philosophy>b{font-size:19px}.orbitLabel small,.philosophy>b small{font-size:12px}}
 /* Vercel/mobile hardening */
 html,body{max-width:100%;overflow-x:hidden}.nav,.hero,.section,.ecologyBoard,.futureMap{min-width:0}img,video{max-width:100%}
+/* Sections that are also shells must keep the same content width as the
+   inner shells used by Achievements and Skills. */
+.section.shell{width:min(1180px,calc(100% - 72px));margin-inline:auto}
 @media(max-width:600px){
   .shell,.education>.shell,.achievements>.shell,.skills>.shell{width:calc(100% - 24px)}
+  .section.shell{width:calc(100% - 24px)}
   .nav{width:calc(100% - 24px);padding-inline:14px;border-radius:16px}.brand{font-size:24px}.navLinks{gap:10px}.navLinks a:not(:last-child){display:none}
   .hero{padding-top:55px;gap:48px}.hero h1{font-size:clamp(48px,16vw,64px);letter-spacing:-.06em}.intro{font-size:15px;line-height:1.85;text-align:left}.heroActions{flex-wrap:wrap}.primary,.secondary{padding:14px 18px}
   .portraitWrap{width:92%;margin-inline:auto}.portraitWrap>img{height:min(118vw,470px)}.statusCard{right:-4px;bottom:12px}
