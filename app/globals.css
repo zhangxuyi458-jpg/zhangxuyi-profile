@@ -39,7 +39,6 @@ html,body{max-width:100%;overflow-x:hidden}.nav,.hero,.section,.ecologyBoard,.fu
 /* Sections that are also shells must keep the same content width as the
    inner shells used by Achievements and Skills. */
 .section.shell{width:min(1180px,calc(100% - 72px));margin-inline:auto}
-.identityPanel{grid-row:1/3}
 .videoCard video{background:#151515}.videoCard .interestOverlay{bottom:58px;pointer-events:none}
 @media(max-width:600px){
   .shell,.education>.shell,.achievements>.shell,.skills>.shell{width:calc(100% - 24px)}

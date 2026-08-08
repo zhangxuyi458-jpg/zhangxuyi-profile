@@ -104,6 +104,11 @@ export default function Home() {
               <ul><li><b>R语言</b><small>数据分析与建模</small></li><li><b>ArcGIS / QGIS</b><small>空间分析与制图</small></li><li><b>多源遥感数据</b><small>处理与融合分析</small></li><li><b>科研可视化</b><small>图表设计与可视化表达</small></li></ul>
               <p className="panelNote green">将复杂问题转化为清晰故事</p>
             </article>
+            <article className="profilePanel practicePanel">
+              <div className="panelTitle violet"><i>▲</i><div><h3>我的实践</h3><span>RESEARCH PRACTICE</span></div></div>
+              <ul><li>主持研究课题</li><li>参与国家重点研发计划</li><li>SCI论文研究与投稿</li><li>科研成果可视化设计</li><li>学术会议报告与交流</li></ul>
+              <p className="panelNote purple">热爱科研，注重实证，乐于分享</p>
+            </article>
             <article className="profilePanel focusPanel">
               <div className="panelTitle mint"><i>◎</i><div><h3>我的关注</h3><span>RESEARCH FOCUS</span></div></div>
               <ul><li><b>农业生态系统</b><small>农田管理与生态过程</small></li><li><b>生产—生态权衡</b><small>识别机制与优化路径</small></li><li><b>空间智能分析</b><small>模型构建与空间模拟</small></li></ul>
