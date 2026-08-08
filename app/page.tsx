@@ -64,7 +64,7 @@ export default function Home() {
           <h1>Hi，<br />我是张旭艺</h1>
           <p className="intro">生态学硕士研究生，具备农业生态系统评价、空间数据分析及科研项目管理经验。熟练掌握R语言、ArcGIS及多源数据分析技术，具备数据处理、统计建模、空间分析与科研可视化能力。主持农田生产–生态效应权衡研究，参与国家重点研发计划，具有独立开展科研设计、数据分析和成果输出的能力。</p>
           <div className="heroActions">
-            <a className="primary" href="#research">查看科研经历 <span>↗</span></a>
+            <a className="primary" href="./files/zhang-xuyi-resume.pdf" download="张旭艺_个人简历.pdf">下载个人简历 <span>↓</span></a>
             <a className="secondary" href="#about">联系我</a>
           </div>
         </div>
@@ -103,12 +103,6 @@ export default function Home() {
               <h4><strong>数据</strong> × <strong>空间</strong> × <strong>表达</strong></h4>
               <ul><li><b>R语言</b><small>数据分析与建模</small></li><li><b>ArcGIS / QGIS</b><small>空间分析与制图</small></li><li><b>多源遥感数据</b><small>处理与融合分析</small></li><li><b>科研可视化</b><small>图表设计与可视化表达</small></li></ul>
               <p className="panelNote green">将复杂问题转化为清晰故事</p>
-            </article>
-            <article className="profilePanel practicePanel">
-              <div className="panelTitle violet"><i>▲</i><div><h3>我的实践</h3><span>RESEARCH PRACTICE</span></div></div>
-              <h4>从数据到发现<br />从模型到决策</h4>
-              <ul><li>主持研究课题</li><li>参与国家重点研发计划</li><li>SCI论文研究与投稿</li><li>科研成果可视化设计</li><li>学术会议报告与交流</li></ul>
-              <p className="panelNote purple">热爱科研，注重实证，乐于分享</p>
             </article>
             <article className="profilePanel focusPanel">
               <div className="panelTitle mint"><i>◎</i><div><h3>我的关注</h3><span>RESEARCH FOCUS</span></div></div>
@@ -156,9 +150,9 @@ export default function Home() {
             <span>R语言建模</span><span>ArcGIS空间分析</span><span>多源数据整合</span><span>科研可视化</span><span>项目统筹</span><span>英文写作</span>
           </div>
           <div className="interestGrid">
-            <article className="interestCard"><video src="./images/swimming.mp4" autoPlay muted loop playsInline aria-label="游泳视频" /><div className="interestOverlay"><span>01</span><div><h3>业余游泳爱好者</h3><p>在水中训练耐力与专注</p></div><b>↗</b></div></article>
+            <article className="interestCard videoCard"><video src="./images/swimming-mobile.mp4" autoPlay muted loop playsInline controls preload="metadata" aria-label="游泳视频">您的浏览器暂不支持视频播放。</video><div className="interestOverlay"><span>01</span><div><h3>业余游泳爱好者</h3><p>在水中训练耐力与专注</p></div><b>↗</b></div></article>
             <article className="interestCard"><img src="./images/football.jpg" alt="足球运动" /><div className="interestOverlay"><span>02</span><div><h3>绿茵场杀手</h3><p>团队、判断与协作</p></div><b>↗</b></div></article>
-            <article className="interestCard"><video src="./images/badminton.mp4" autoPlay muted loop playsInline aria-label="羽毛球视频" /><div className="interestOverlay"><span>03</span><div><h3>羽球场灵动达人</h3><p>速度与即时反应</p></div><b>↗</b></div></article>
+            <article className="interestCard videoCard"><video src="./images/badminton-mobile.mp4" autoPlay muted loop playsInline controls preload="metadata" aria-label="羽毛球视频">您的浏览器暂不支持视频播放。</video><div className="interestOverlay"><span>03</span><div><h3>羽球场灵动达人</h3><p>速度与即时反应</p></div><b>↗</b></div></article>
             <article className="interestCard photoCard"><img src="./images/photo-1.jpg" alt="张旭艺摄影作品" /><img src="./images/photo-2.jpg" alt="张旭艺摄影作品" /><div className="interestOverlay"><span>04</span><div><h3>城市光影收藏家</h3><p>记录光线与日常细节</p></div><b>↗</b></div></article>
           </div>
         </div>
